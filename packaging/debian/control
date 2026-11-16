@@ -1,0 +1,9 @@
+Package: lh-airgap-sync-protocol
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Sameer Tawade <ops@logihertz.com>
+Homepage: https://www.logihertz.com
+Description: lh-airgap-sync - Galois Field GF(2^8) Cauchy Generator Matrix Invariant
+ Pure-Rust unidirectional optical/QR and UDP data-diode synchronization protocol featuring Galois Field GF(2^8) Cauchy erasure coding, HMAC-SHA256 frame authentication, monotonic anti-replay, and optical matrix rendering.

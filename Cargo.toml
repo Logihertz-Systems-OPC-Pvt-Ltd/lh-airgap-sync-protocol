@@ -1,0 +1,26 @@
+[package]
+name = "lh-airgap-sync-protocol"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sameer Tawade <ops@logihertz.com>"]
+description = "Unidirectional Optical/QR & UDP Data Diode Synchronization Protocol, GF(2^8) Erasure FEC Engine, Monotonic Anti-Replay Verifier, and 10-Rule Air-Gap Enclave Security Posture Auditor"
+license = "Apache-2.0"
+repository = "https://github.com/Logihertz-Systems-OPC-Pvt-Ltd/lh-airgap-sync-protocol"
+keywords = ["data-diode", "airgap", "erasure-coding", "fec", "unidirectional"]
+categories = ["cryptography", "network-programming"]
+
+[lib]
+name = "lh_airgap_sync"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lh-airgap-sync"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

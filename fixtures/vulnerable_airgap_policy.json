@@ -1,0 +1,23 @@
+{
+  "policy_name": "Insecure Bidirectional Bridged Enclave Policy",
+  "physical_unidirectional_diode": false,
+  "allow_backchannel_ack_nack": true,
+  "cryptographic_frame_auth": false,
+  "verify_payload_sha256": false,
+  "monotonic_epoch_anti_replay": false,
+  "persist_replay_ledger": false,
+  "encrypt_diode_payloads": false,
+  "fec_erasure_coding_enabled": false,
+  "fec_parity_ratio_percent": 0.0,
+  "cdr_schema_validation_enabled": false,
+  "allow_executable_payloads": true,
+  "max_reassembly_buffer_mb": 1024,
+  "reassembly_timeout_sec": 1200,
+  "max_frame_payload_bytes": 4096,
+  "display_fps": 60.0,
+  "camera_fps": 30.0,
+  "optical_shroud_enforced": false,
+  "tempest_acoustic_rf_isolation": false,
+  "require_dual_custody_signoff": false,
+  "audit_log_diode_transfers": false
+}

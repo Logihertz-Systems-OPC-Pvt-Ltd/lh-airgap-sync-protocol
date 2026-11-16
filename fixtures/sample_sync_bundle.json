@@ -1,0 +1,10 @@
+{
+  "description": "Sample sovereign air-gap telemetry and configuration synchronization bundle",
+  "session_id": 982347102,
+  "epoch_seq": 42,
+  "data_shards_k": 4,
+  "parity_shards_m": 2,
+  "auth_key_hex": "2b7e151628aed2a6abf7158809cf4f3c3ad77bb40d7a3660a89ecaf32466ef97",
+  "cipher_key_hex": "6bc1bee22e409f96e93d7e117393172aae2d8a571e03ac9c9eb76fac45af8e51",
+  "payload": "CLASSIFIED AIR-GAP TELEMETRY: ISOLATED POWER GRID PHASE SYNCHRONIZATION DATA - STATUS NOMINAL"
+}

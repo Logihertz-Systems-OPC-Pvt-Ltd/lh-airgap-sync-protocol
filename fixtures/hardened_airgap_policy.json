@@ -1,0 +1,23 @@
+{
+  "policy_name": "Logihertz Sovereign Hardened Air-Gap Diode Policy",
+  "physical_unidirectional_diode": true,
+  "allow_backchannel_ack_nack": false,
+  "cryptographic_frame_auth": true,
+  "verify_payload_sha256": true,
+  "monotonic_epoch_anti_replay": true,
+  "persist_replay_ledger": true,
+  "encrypt_diode_payloads": true,
+  "fec_erasure_coding_enabled": true,
+  "fec_parity_ratio_percent": 50.0,
+  "cdr_schema_validation_enabled": true,
+  "allow_executable_payloads": false,
+  "max_reassembly_buffer_mb": 128,
+  "reassembly_timeout_sec": 60,
+  "max_frame_payload_bytes": 512,
+  "display_fps": 15.0,
+  "camera_fps": 60.0,
+  "optical_shroud_enforced": true,
+  "tempest_acoustic_rf_isolation": true,
+  "require_dual_custody_signoff": true,
+  "audit_log_diode_transfers": true
+}

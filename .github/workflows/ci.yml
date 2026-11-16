@@ -27,6 +27,9 @@ jobs:
       - name: Lint with Clippy (zero warnings)
         run: cargo clippy --all-targets -- -D warnings
 
+      - name: Build Binaries (cargo build)
+        run: cargo build
+
       - name: Run Test Suite (cargo test)
         run: cargo test --verbose
 

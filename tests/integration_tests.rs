@@ -591,13 +591,7 @@ fn test_exporters_table_json_sarif() {
 // =========================================================================
 
 fn get_bin_path() -> String {
-    let mut path = std::env::current_exe().unwrap();
-    path.pop();
-    if path.ends_with("deps") {
-        path.pop();
-    }
-    path.push("lh-airgap-sync");
-    path.to_str().unwrap().to_string()
+    env!("CARGO_BIN_EXE_lh-airgap-sync").to_string()
 }
 
 #[test]
